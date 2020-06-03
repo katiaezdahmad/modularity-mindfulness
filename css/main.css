@@ -1,0 +1,57 @@
+html {
+  font-family: "Noto Sans", sans-serif;
+  color: #000;
+}
+
+.japanese {
+  font-family: "Noto Sans Japanese", sans-serif;
+}
+
+footer {
+  color: #000;
+}
+
+a {
+  color: #005e76;
+  text-decoration: none;
+  border-bottom: solid 2px #8bc9d9;
+}
+
+a:hover {
+  color: #0084a6;
+}
+
+.btn-ghost {
+  border-color: #8bc9d9;
+  border-width: thin;
+  color: #005e76;
+}
+
+.btn:hover {
+  border-color: #0084a6;
+  background-color: #8bc9d9;
+  color: #005e76;
+}
+
+header {
+  text-align: center;
+}
+
+.border, footer {
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: #e2e2e2;
+}
+
+@media only screen and (min-width: 60em) {
+
+  nav {
+    text-align: right;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+}
